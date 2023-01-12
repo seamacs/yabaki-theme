@@ -5,7 +5,7 @@
 
 =git clone git://git.seahorse.sh/yabaki-theme.git=
 
-```
+#+begin_src emacs-lisp
 (add-to-list 'custom-theme-load-path "~/path/to/yabaki-theme")
 (load-theme 'yabaki t)
-```
+#+end_src
