@@ -1,4 +1,4 @@
-;;; yabaki-theme.el --- yabaki, the cast shadow
+;;; yabaki-theme.el --- yabaki, the cast shadow -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2023 David Goudou
 
