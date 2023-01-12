@@ -1,6 +1,10 @@
 #+title: Yabaki Theme
 #+author: gksudo
 
+[[screenshot.png]]
+
+A dark, bright-coloured theme for GNU Emacs
+
 * Installation
 
 =git clone git://git.seahorse.sh/yabaki-theme.git=
