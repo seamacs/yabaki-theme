@@ -1,0 +1,11 @@
+#+title: Yabaki Theme
+#+author: gksudo
+
+* Installation
+
+=git clone git://git.seahorse.sh/yabaki-theme.git=
+
+```
+(add-to-list 'custom-theme-load-path "~/path/to/yabaki-theme")
+(load-theme 'yabaki t)
+```
