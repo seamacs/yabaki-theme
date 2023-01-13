@@ -1,12 +1,19 @@
-;;; yabaki-theme.el --- yabaki, the cast shadow -*- lexical-binding: t; -*-
+;;; yabaki-theme.el --- Yabaki, the cast shadow -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2023 David Goudou
 
 ;; Author: David Goudou <david.goudou@gmail.com>
 ;; Version: 0.0.2
 ;; Package-Requires: ((emacs "27.1"))
+;; Homepage: https://github.com/seamacs/yabaki-theme
 
-(deftheme yabaki "yabaki, the cast shadow")
+
+;;; Commentary:
+;; A dark, bright-coloured theme for GNU Emacs
+
+;;; Code:
+
+(deftheme yabaki "Yabaki, the cast shadow.")
 
 (let ((class '((class color) (min-colors 89)))
       (yabaki-fg "#F5F5DC")
@@ -123,7 +130,4 @@
 
 (provide-theme 'yabaki)
 
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
 ;;; yabaki-theme.el ends here
