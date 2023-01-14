@@ -13,7 +13,7 @@ Pending inclusion to [[https://github.com/melpa/melpa/pull/8363][MELPA]]
 
 #+begin_src emacs-lisp
 (use-package yabaki-theme
-   :straight (yabaki-theme :type git :host nil :repo "git://git.seahorse.sh/yabaki-theme.git"")
+   :straight (yabaki-theme :type git :host nil :repo "git://git.seahorse.sh/yabaki-theme.git")
    :config (load-theme 'yabaki t))
 #+end_src
 
