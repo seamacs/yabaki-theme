@@ -1,27 +1,34 @@
 #+title: Yabaki Theme
 #+author: gksudo
 
-[[screenshot.png]]
+[[https://melpa.org/#/yabaki-theme][file:https://melpa.org/packages/yabaki-theme-badge.svg]]
+[[https://stable.melpa.org/#/yabaki-theme][file:https://stable.melpa.org/packages/yabaki-theme-badge.svg]]
 
 A dark, bright-coloured theme for GNU Emacs
 
+[[screenshot.png]]
+
 * Installation
 
-Pending inclusion to [[https://github.com/melpa/melpa/pull/8363][MELPA]]
+** Using =use-package=
+
+#+begin_src emacs-lisp
+(use-package yabaki-theme
+  :config (load-theme 'yabaki t))
+#+end_src
 
 ** Using =use-package= with =straight.el=
 
 #+begin_src emacs-lisp
 (use-package yabaki-theme
-  :straight (yabaki-theme :type git :host nil :repo "git://git.seahorse.sh/yabaki-theme.git")
+  :straight t
   :config (load-theme 'yabaki t))
 #+end_src
 
 ** Using =straight.el=
 
 #+begin_src emacs-lisp
-(straight-use-package
-  '(yabaki-theme :type git :host nil :repo "git://git.seahorse.sh/yabaki-theme.git"))
+(straight-use-package 'yabaki-theme)
 (require 'yabaki-theme)
 (load-theme 'yabaki t)
 #+end_src
