@@ -139,7 +139,7 @@
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
+               (file-name-as-directory (file-name-directory (or load-file-name buffer-file-name)))))
 
 (provide-theme 'yabaki)
 
