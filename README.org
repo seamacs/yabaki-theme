@@ -34,7 +34,7 @@ A dark, bright-coloured theme for GNU Emacs
 
 ** Manual
 
-=git clone git://git.seahorse.sh/yabaki-theme.git=
+=git clone https://github.com/seamacs/yabaki-theme.git=
 
 #+begin_src emacs-lisp
 (add-to-list 'custom-theme-load-path "~/path/to/yabaki-theme")
