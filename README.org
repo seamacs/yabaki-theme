@@ -4,6 +4,8 @@
 [[https://melpa.org/#/yabaki-theme][file:https://melpa.org/packages/yabaki-theme-badge.svg]]
 [[https://stable.melpa.org/#/yabaki-theme][file:https://stable.melpa.org/packages/yabaki-theme-badge.svg]]
 
+/This package is considered stable, though [[https://github.com/seamacs/yabaki-theme/pulls][pull requests]] are welcome/
+
 A dark, bright-coloured theme for GNU Emacs
 
 [[screenshot.png]]
