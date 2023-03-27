@@ -3,7 +3,7 @@
 ;; Copyright (C) 2023 David Goudou
 
 ;; Author: David Goudou <david.goudou@gmail.com>
-;; Version: 1.0.0
+;; Version: 2.0.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Homepage: https://github.com/seamacs/yabaki-theme
 
